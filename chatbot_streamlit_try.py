@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_chat import message as st_message
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
-import pyautogui
+# import pyautogui
 
 
 @st.experimental_singleton
@@ -19,8 +19,8 @@ if "history" not in st.session_state:
     st.session_state.history = []
 
 st.title("Hello, this is an AI Chatbot")
-if st.button("Clear Chat"):
-    pyautogui.hotkey("ctrl","F5")
+# if st.button("Clear Chat"):
+#     pyautogui.hotkey("ctrl","F5")
 
 def generate_answer():
     counter=0
