@@ -9,7 +9,7 @@ import torch
 def get_models():
     # it may be necessary for other frameworks to cache the model
     # seems pytorch keeps an internal state of the conversation
-    model_name = "microsoft/DialoGPT-large"
+    model_name = "microsoft/DialoGPT-medium"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(model_name)
     return tokenizer, model
