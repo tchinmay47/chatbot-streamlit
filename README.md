@@ -10,7 +10,7 @@ This machine learning model is designed to converse about anything and everythin
 
 ## Tech Stack
 
-**Technologies Used:** Python, Jupyter Notebook, Machine Learning, , Natural Language Processing, Streamlit
+**Technologies Used:** Python, Jupyter Notebook, Machine Learning, Natural Language Processing, Streamlit
 
 
 
